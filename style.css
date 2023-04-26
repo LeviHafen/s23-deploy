@@ -1,0 +1,56 @@
+
+body {
+    background-color: lightblue;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h2 {
+    font-family: monospace;
+}
+
+.container2 input button{
+    display: flex;
+    align-items: center;
+}
+
+#my-button {
+    background-color: #ef9273;
+    color: #ffff;
+    font-family: monospace;
+}
+
+#user-button {
+    background-color: #ef9273;
+    color: #ffff;
+    font-family: monospace;
+}
+
+#login-button {
+    background-color: #ef9273;
+    color: #ffff;
+    font-family: monospace;
+}
+
+.container3 {
+    display: flex;
+}
+
+.carlist {
+    display: flex;
+}
+
+.container3 li {
+    padding: 10px;
+    border: 2px black solid;
+    background-color: #ef9273;
+    color: #0d0d0d;
+}
+
+.container1 div {
+    font-family: monospace;
+    font-size: xx-large;
+}

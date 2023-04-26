@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <div class="wrapper">
+        <head>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div class="container1">
+                <div class="title1">
+                    <h1 class="item1" id="my-heading">Favorite Cars</h1>
+                </div>
+                <div class="title2">
+                    <h2 class="item2" id="my-heading2">Enter Your Favorite Car</h2>
+                </div>
+            </div>
+            <div id="userContainer">
+                <h2>Register</h2>
+                <input type="text" id="first-name" placeholder="Elon"> 
+                <input type="text" id="last-name" placeholder="Musk"> 
+                <input type="text" id="email" placeholder="example@mail.com"> 
+                <input type="text" id="password" placeholder="password">
+                <button id="user-button">Register</button> 
+            </div>
+            <div id="loginContainer">
+                <h2>Login</h2>
+                <input type="text" id="loginEmail" placeholder="example@mail.com">
+                <input type="text" id="loginPassword" placeholder="password">
+                <button id="login-button">Login</button> 
+            </div>
+            <div id="container2">
+                <h2>Add to Database</h2>
+                <input type="text" id="car-name" placeholder="enter car name">
+                <input type="text" id="car-model" placeholder="enter car model">
+                <input type="text" id="car-year" placeholder="enter car year">
+                <input type="text" id="car-color" placeholder="enter car color">
+                <input type="text" id="car-drivetrain" placeholder="enter car drivetrain">
+                <button id="my-button">Add</button>
+            </div>
+            <div class="container3">
+                <ol class="carlist" id="my-car-list">
+                </ol>
+            </div>
+            <script src="car.js"></script>
+        </body>
+    </div>
+</html>
